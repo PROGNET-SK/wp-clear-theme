@@ -1,0 +1,16 @@
+{
+    "name": "prognet/wp-claer-theme",
+    "type": "project",
+    "keywords": "templating",
+    "description": "WP testovacia stranka",
+    "homepage": "https://prognet.sk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Peter Zelenicky",
+            "email": "zelenicky@prognet.sk",
+            "homepage": "https://www.prognet.sk",
+            "role": "Developer"
+        }
+    ]
+}

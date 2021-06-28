@@ -1,21 +1,11 @@
 {
     "name": "clear-theme",
     "version": "1.0.0",
-    "description": "Cista stranka WP",
+    "description": "PROGNET - testovacia sablona pre WP",
     "bugs": {
-        "url": "https://github.com/WordPress/twentynineteen/issues"
+        "url": "https://github.com/PROGNET-SK/wp-clear-theme/issues"
     },
-    "homepage": "https://github.com/WordPress/twentynineteen#readme",
-    "devDependencies": {
-        "@wordpress/browserslist-config": "^3.0.0",
-        "autoprefixer": "^9.8.6",
-        "chokidar-cli": "^2.1.0",
-        "node-sass": "^5.0.0",
-        "npm-run-all": "^4.1.5",
-        "postcss-cli": "^7.1.2",
-        "postcss-focus-within": "^4.0.0",
-        "rtlcss": "^2.6.2"
-    },
+    "homepage": "https://github.com/PROGNET-SK/wp-clear-theme#readme",    
     "rtlcssConfig": {
         "options": {
             "autoRename": false,
@@ -28,16 +18,5 @@
         "plugins": [],
         "map": false
     },
-    "browserslist": [
-        "extends @wordpress/browserslist-config"
-    ],
-    "scripts": {
-        "build:style": "node-sass style.scss style.css --output-style expanded && postcss -r style.css",
-        "build:style-editor": "node-sass style-editor.scss style-editor.css --output-style expanded && postcss -r style-editor.css",
-        "build:style-editor-customizer": "node-sass style-editor-customizer.scss style-editor-customizer.css --output-style expanded && postcss -r style-editor-customizer.css",
-        "build:rtl": "rtlcss style.css style-rtl.css",
-        "build:print": "node-sass print.scss print.css --output-style expanded && postcss -r print.css",
-        "build": "run-p \"build:*\"",
-        "watch": "chokidar \"**/*.scss\" -c \"npm run build\" --initial"
-    }
+    "browserslist": []
 }
