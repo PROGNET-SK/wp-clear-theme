@@ -1,7 +1,6 @@
 {
     "name": "prognet/wp-clear-theme",
-    "type": "project",
-    "keywords": "templating",
+    "type": "project",   
     "description": "WP testovacia stranka",
     "homepage": "https://prognet.sk",
     "license": "MIT",
