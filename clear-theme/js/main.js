@@ -1,0 +1,3 @@
+$(function(){
+  // moje scripty
+});
